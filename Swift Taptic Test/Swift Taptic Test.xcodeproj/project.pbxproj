@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1765FC461C8B2E2600D69462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765FC451C8B2E2600D69462 /* AppDelegate.swift */; };
+		1765FC481C8B2E2600D69462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765FC471C8B2E2600D69462 /* ViewController.swift */; };
+		1765FC4B1C8B2E2600D69462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1765FC491C8B2E2600D69462 /* Main.storyboard */; };
+		1765FC4D1C8B2E2600D69462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1765FC4C1C8B2E2600D69462 /* Assets.xcassets */; };
+		1765FC501C8B2E2600D69462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1765FC4E1C8B2E2600D69462 /* LaunchScreen.storyboard */; };
+		1765FC5F1C8B36C000D69462 /* UIDevice+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765FC5E1C8B36C000D69462 /* UIDevice+Private.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1765FC421C8B2E2600D69462 /* Swift Taptic Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Taptic Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1765FC451C8B2E2600D69462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1765FC471C8B2E2600D69462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1765FC4A1C8B2E2600D69462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1765FC4C1C8B2E2600D69462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1765FC4F1C8B2E2600D69462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1765FC511C8B2E2600D69462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1765FC591C8B334F00D69462 /* Swift Taptic Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift Taptic Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		1765FC5C1C8B343D00D69462 /* UIDevice+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Private.h"; sourceTree = "<group>"; };
+		1765FC5D1C8B347200D69462 /* UITapticEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITapticEngine.h; sourceTree = "<group>"; };
+		1765FC5E1C8B36C000D69462 /* UIDevice+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Private.m"; sourceTree = "<group>"; };
+		1765FC631C8B391900D69462 /* TapticEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapticEngine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1765FC3F1C8B2E2600D69462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1765FC391C8B2E2600D69462 = {
+			isa = PBXGroup;
+			children = (
+				1765FC441C8B2E2600D69462 /* Swift Taptic Test */,
+				1765FC431C8B2E2600D69462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1765FC431C8B2E2600D69462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1765FC421C8B2E2600D69462 /* Swift Taptic Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1765FC441C8B2E2600D69462 /* Swift Taptic Test */ = {
+			isa = PBXGroup;
+			children = (
+				1765FC451C8B2E2600D69462 /* AppDelegate.swift */,
+				1765FC471C8B2E2600D69462 /* ViewController.swift */,
+				1765FC491C8B2E2600D69462 /* Main.storyboard */,
+				1765FC4C1C8B2E2600D69462 /* Assets.xcassets */,
+				1765FC4E1C8B2E2600D69462 /* LaunchScreen.storyboard */,
+				1765FC511C8B2E2600D69462 /* Info.plist */,
+				1765FC591C8B334F00D69462 /* Swift Taptic Test-Bridging-Header.h */,
+				1765FC5C1C8B343D00D69462 /* UIDevice+Private.h */,
+				1765FC5D1C8B347200D69462 /* UITapticEngine.h */,
+				1765FC5E1C8B36C000D69462 /* UIDevice+Private.m */,
+				1765FC631C8B391900D69462 /* TapticEngine.h */,
+			);
+			path = "Swift Taptic Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1765FC411C8B2E2600D69462 /* Swift Taptic Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1765FC541C8B2E2600D69462 /* Build configuration list for PBXNativeTarget "Swift Taptic Test" */;
+			buildPhases = (
+				1765FC3E1C8B2E2600D69462 /* Sources */,
+				1765FC3F1C8B2E2600D69462 /* Frameworks */,
+				1765FC401C8B2E2600D69462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Taptic Test";
+			productName = "Swift Taptic Test";
+			productReference = 1765FC421C8B2E2600D69462 /* Swift Taptic Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1765FC3A1C8B2E2600D69462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gerd Müller";
+				TargetAttributes = {
+					1765FC411C8B2E2600D69462 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 429V7H8GNG;
+					};
+				};
+			};
+			buildConfigurationList = 1765FC3D1C8B2E2600D69462 /* Build configuration list for PBXProject "Swift Taptic Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1765FC391C8B2E2600D69462;
+			productRefGroup = 1765FC431C8B2E2600D69462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1765FC411C8B2E2600D69462 /* Swift Taptic Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1765FC401C8B2E2600D69462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765FC501C8B2E2600D69462 /* LaunchScreen.storyboard in Resources */,
+				1765FC4D1C8B2E2600D69462 /* Assets.xcassets in Resources */,
+				1765FC4B1C8B2E2600D69462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1765FC3E1C8B2E2600D69462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1765FC5F1C8B36C000D69462 /* UIDevice+Private.m in Sources */,
+				1765FC481C8B2E2600D69462 /* ViewController.swift in Sources */,
+				1765FC461C8B2E2600D69462 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1765FC491C8B2E2600D69462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1765FC4A1C8B2E2600D69462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1765FC4E1C8B2E2600D69462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1765FC4F1C8B2E2600D69462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1765FC521C8B2E2600D69462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1765FC531C8B2E2600D69462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1765FC551C8B2E2600D69462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Swift Taptic Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.gerdmuller.Swift-Taptic-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift Taptic Test/Swift Taptic Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1765FC561C8B2E2600D69462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Swift Taptic Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.gerdmuller.Swift-Taptic-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift Taptic Test/Swift Taptic Test-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1765FC3D1C8B2E2600D69462 /* Build configuration list for PBXProject "Swift Taptic Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1765FC521C8B2E2600D69462 /* Debug */,
+				1765FC531C8B2E2600D69462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1765FC541C8B2E2600D69462 /* Build configuration list for PBXNativeTarget "Swift Taptic Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1765FC551C8B2E2600D69462 /* Debug */,
+				1765FC561C8B2E2600D69462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1765FC3A1C8B2E2600D69462 /* Project object */;
+}
