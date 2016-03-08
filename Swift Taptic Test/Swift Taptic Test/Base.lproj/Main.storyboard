@@ -36,18 +36,21 @@
                                             <action selector="popAction:" destination="BYZ-38-t0r" eventType="touchDown" id="0tE-io-Xif"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCi-bu-PQf">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syf-Hm-EBE">
                                         <rect key="frame" x="0.0" y="84" width="80" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Peek 3"/>
+                                        <connections>
+                                            <action selector="peek3Action:" destination="BYZ-38-t0r" eventType="touchDown" id="hTc-zh-rvJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCi-bu-PQf">
+                                        <rect key="frame" x="0.0" y="126" width="80" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Vibrate"/>
                                         <connections>
                                             <action selector="vibrateAction:" destination="BYZ-38-t0r" eventType="touchDown" id="O55-xK-6Q1"/>
                                         </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syf-Hm-EBE">
-                                        <rect key="frame" x="0.0" y="126" width="80" height="42"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Alert"/>
                                     </button>
                                 </subviews>
                             </stackView>

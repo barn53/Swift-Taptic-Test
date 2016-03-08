@@ -21,6 +21,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func delay(delay: Double, closure: ()->()) {
+        dispatch_after(
+            dispatch_time(
+                DISPATCH_TIME_NOW,
+                Int64(delay * Double(NSEC_PER_SEC))
+            ),
+            dispatch_get_main_queue(),
+            closure
+        )
+    }
+    
     @IBAction func peekAction(sender: AnyObject) {
         UIDevice.currentDevice()._tapticEngine().actuateFeedback(UITapticEngineFeedbackPeek)
     }
@@ -33,10 +44,14 @@ class ViewController: UIViewController {
         AudioServicesPlayAlertSoundWithCompletion(kSystemSoundID_Vibrate, nil)
     }
 
-    /*
-    @IBAction func alertAction(sender: AnyObject) {
-        AudioServicesPlayAlertSoundWithCompletion(kSystemSoundID_UserPreferredAlert)
+    @IBAction func peek3Action(sender: AnyObject) {
+        UIDevice.currentDevice()._tapticEngine().actuateFeedback(UITapticEngineFeedbackPeek)
+        delay(0.17) {
+            UIDevice.currentDevice()._tapticEngine().actuateFeedback(UITapticEngineFeedbackPeek)
+            self.delay(0.17) {
+                UIDevice.currentDevice()._tapticEngine().actuateFeedback(UITapticEngineFeedbackPeek)
+            }
+        }
     }
-    */
 }
 
